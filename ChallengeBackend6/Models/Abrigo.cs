@@ -22,6 +22,5 @@ namespace ChallengeBackend6.Models
 
         [Required(ErrorMessage = "apenas 0 para inativo é 1 para ativo")]
         [Range(0, 1)]
-        public int PermissaoCadastroPet { get; set; }
     }
 }

@@ -20,8 +20,5 @@ namespace ChallengeBackend6.Data.Dtos
         [Required]
         public string PhoneNumber { get; set; }
 
-        [Required(ErrorMessage = "apenas 0 para inativo é 1 para ativo")]
-        [Range(0, 1)]
-        public int PermissaoCadastroPet { get; set; }
     }
 }

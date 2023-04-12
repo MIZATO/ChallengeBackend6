@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace ChallengeBackend6.Models
 {
@@ -19,10 +20,7 @@ namespace ChallengeBackend6.Models
         public string Password { get; set; }
         [Required]
         public string PhoneNumber { get; set; }
-
-        public string ImgPerfil { get; set; }
-
-
+        public string? ImgPerfil { get; set; }
 
     }
 }

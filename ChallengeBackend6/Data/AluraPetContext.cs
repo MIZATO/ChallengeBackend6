@@ -13,5 +13,6 @@ namespace ChallengeBackend6.Data
 
         public DbSet<Tutor> Tutores { get; set; }
         public DbSet<Abrigo> Abrigos { get; set; }
+        public DbSet<Pet> Pets { get; set; }
     }
 }
